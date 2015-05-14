@@ -1,0 +1,23 @@
+﻿
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>My Movie Site</title>
+        <link href="~/Style/Movies.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="container">
+            <div id="header">
+                <h1>My Movie Site</h1>
+            </div>
+            <div id="main">
+                @RenderBody()
+            </div>
+            <div id="footer">
+                &copy; @DateTime.Now.Year My Movie Site
+            </div>
+        </div>
+    </body>
+</html>
